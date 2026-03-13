@@ -11,5 +11,10 @@ pipeline{
                 echo "hii build Scueess this time chudam "
             }
         }
+        stage("failure"){
+            steps{
+                echo "build failed"
+            }
+        }
     }
 }
