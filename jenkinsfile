@@ -8,7 +8,7 @@ pipeline{
         }
         stage("hii"){
             steps{
-                echo "hii build Scueess"
+                echo "hii build Scueess this time"
             }
         }
     }
