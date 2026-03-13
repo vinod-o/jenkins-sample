@@ -8,7 +8,7 @@ pipeline{
         }
         stage("hii"){
             steps{
-                echo "hii build sucess"
+                echo "hii build Scueess"
             }
         }
     }
