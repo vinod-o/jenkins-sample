@@ -16,5 +16,10 @@ pipeline{
                 echo "build failed"
             }
         }
+        stage("suresh"){
+            steps{
+                echo "suresh babu"
+            }
+        }
     }
 }
