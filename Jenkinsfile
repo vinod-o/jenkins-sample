@@ -19,6 +19,12 @@ pipeline{
         stage("suresh"){
             steps{
                 echo "suresh babu"
+
+            }
+        }
+        stage("teja"){
+            steps{
+                echo " teja naidu"
             }
         }
     }
